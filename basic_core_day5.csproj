@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="division.cs" />
     <Compile Include="factors.cs" />
+    <Compile Include="find_vowels.cs" />
     <Compile Include="flip_coin.cs" />
     <Compile Include="harmonic.cs" />
     <Compile Include="leap_year.cs" />
