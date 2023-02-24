@@ -14,7 +14,7 @@ namespace basic_core_day5
             var i = "y";
             while (i == "y")
             {
-                Console.Write("Enter \n 1) for Flip coin  \n 2)for leap year \n 3) power of 2 \n 4) Harmonic Number \n 5) for factors    \n Enter Option \n\n");
+                Console.Write("Enter \n 1) for Flip coin  \n 2)for leap year \n 3) power of 2 \n 4) Harmonic Number \n 5) for factors \n 6)Find quotient and remainder    \n Enter Option \n\n");
                 var a = Convert.ToInt32(Console.ReadLine());
                 switch (a)
                 {
@@ -27,6 +27,7 @@ namespace basic_core_day5
                     case 3: power2.power_count(); break;
                     case 4: harmonic.harmonic_num(); break;
                     case 5: factors.factor_find(); break;
+                    case 6: division.find_quot_rem_div(); break;
                     default: Console.WriteLine("Invalid Option");
                         break;
 
