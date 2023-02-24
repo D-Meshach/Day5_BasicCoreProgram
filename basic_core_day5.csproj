@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="division.cs" />
+    <Compile Include="factors.cs" />
     <Compile Include="flip_coin.cs" />
     <Compile Include="harmonic.cs" />
     <Compile Include="leap_year.cs" />
     <Compile Include="power2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="swap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
